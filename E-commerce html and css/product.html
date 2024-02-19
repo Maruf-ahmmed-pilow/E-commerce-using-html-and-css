@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="this is an ecommerce project for making pilow express">
+
+   <!-- font awsome cdn -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <link rel="stylesheet" href="style.css">
+
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+    <title>Ecommerse project</title>
+</head>
+<body>
+    <!-- navbar starts here -->
+    <i class="fas fa-bars fa-2x" id = 'menu-icon'></i>
+    <nav id="menu" class="hidden">
+        <ul class="nav-upper 
+        flex-space-around">
+            <li class="nav_list">
+                <a href="index.html" class="nav_link">Home</a>
+            </li>
+
+            <li class="nav_list">
+                <a href="register.html" class="nav_link">Register</a>
+            </li>
+
+            <li class="nav_list">
+                <a href="Login.html" class="nav_link">Login</a>
+            </li>
+
+            <li class="nav_list">
+                <a href="contact.html" class="nav_link">Contact</a>
+            </li>
+
+            <li class="nav_list">
+                <a href="index.html" class="nav_link">Logout</a>
+            </li>
+
+            <li class="nav_list">
+                <a href="profile.html" class="nav_link">
+                    <img class="profile-icon" src="./image/profile.jpg" alt="profile-icon">
+                </a>
+            </li>
+
+        </ul>
+      
+    </nav>
+    <!-- navbar ends here -->
+
+    <!-- main starts here -->
+    <main class="flex-center">
+        <div class="main-content">
+            <section class="product-details flex-center">
+                <div class="product__details-left flex-center">
+                    <img src="./image/pro1.webp" alt="Sony Headphone">
+                </div>
+
+                <div class="product__details-right">
+                    <strong>Description</strong> <br> <br>
+                    <h3 class="product__name">WH-1000XM4 Wireless Premium Noise Canceling Headphones | Black</h3>
+                        <p>
+                            <span class="dot red"></span>
+                            <span class="dot yellow"></span>
+                            <span class="dot black"></span>
+                        </p>
+                        <p class="product__description">
+                            Industry-leading noise canceling1 with Dual Noise Sensor technology.
+                            <br>
+                            
+                            Driver Magnet : Neodymium
+                            <br>
+                            
+                            Frequency Range : 4Hz-40,000Hz
+                            <br>
+                            
+                            Sensitivity : 105dB / mW (1kHz) (when connecting via the headphone cable with the unit turned on) , 101dB / mW (1kHz) (when connecting via the headphone cable with the unit turned off)
+                            <br>
+                            
+                            Input Jack : Gold-plated L-shaped stereo mini plug
+                            <br>
+                            
+                            Driver Diameter : 40mm, dome type (CCAW Voice coil)
+                            <br>
+                            
+                            Connectivity : BLUETOOTH: version 5.0
+                            <br>
+                            
+                            EFFECTIVE RANGE: Line of sight approx.30ft (10m) Others
+                            <br>
+                            
+                            NOISE CANCELING ON/OFF SWITCH: Yes
+                            <br>
+                            
+                            AUTOMATIC AI NOISE CANCELLING: Yes
+                            <br>
+                            
+                        </p>
+                        <p>
+                            <h5>Physical Specification :</h5>
+                            <br>
+                            Color : 
+                            <br>
+                            Black (WH1000XM4/BME)
+                            <br>
+                            Blue (WH1000XM4/LME)
+                            <br>
+                            Silver (WH1000XM4/SME)
+                            <br>
+
+                        </p>
+                        <h4 class="product__category">Category : Headphone</h4>
+                        <h4 class="product__price">Price : $350.99</h4>
+                        <p class="product__rating">Ratting 4.8/5</p>
+                        <button class="btn product__button">Add to Cart</button>
+                        <button class="btn product__button">Back To Shopping</button>
+                </div>
+            </section>
+        </div>
+    </main>
+    <!-- main ends here -->
+
+
+    <!-- footer start here -->
+    <footer class="footer flex-space-around">
+        <div class="flex-space-around">
+            <label for="subscribe">subscribe to Newsletter:</label>
+            <input type="email" name="subscribe" id="subscribe" class="footer_input"
+            placeholder="Your Email Address">
+            <button class="btn btn-subscribe">Subscribe</button>
+        </div>
+
+        <div>
+            <p>&copy; copyright 2024 Pilow Express. All right rserved</p>
+        </div>
+    </footer>
+    <!-- footer ends here -->
+    <script src="./scripts/index.js"></script>
+</body>
+</html>

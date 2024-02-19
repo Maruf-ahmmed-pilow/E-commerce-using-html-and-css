@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="this is an ecommerce project for making pilow express">
+
+    <!-- font awsome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+    <title>Ecommerse project</title>
+</head>
+<body>
+    <!-- navbar starts here -->
+    <i class="fas fa-bars fa-2x" id = 'menu-icon'></i>
+    <nav id="menu" class="hidden">
+        <ul class="nav-upper 
+        flex-space-around">
+            <li class="nav_list">
+                <a href="index.html" class="nav_link">Home</a>
+            </li>
+
+            <li class="nav_list">
+                <a href="register.html" class="nav_link">Register</a>
+            </li>
+
+            <li class="nav_list">
+                <a href="Login.html" class="nav_link">Login</a>
+            </li>
+
+            <li class="nav_list">
+                <a href="contact.html" class="nav_link">Contact</a>
+            </li>
+
+            <li class="nav_list">
+                <a href="index.html" class="nav_link">Logout</a>
+            </li>
+
+            <li class="nav_list">
+                <a href="profile.html" class="nav_link">
+                    <img class="profile-icon" src="./image/profile.jpg" alt="profile-icon">
+                </a>
+            </li>
+
+        </ul>
+        <ul class="nav-lower flex-space-around">
+
+            <li class="nav_list">
+                <a href="/index.html" class="nav_brand nav_link">Express</a>
+            </li>
+
+
+            <li class="nav-list">
+                <a href="cart.html" class="nav_link">
+                    <span><i class="fa-solid
+                        fa-cart-shopping"></i></span>
+                        Cart 2 products - $124.40
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <!-- navbar ends here -->
+
+    <!-- header starts here -->
+    <header class="header">
+        <div class="banner flex-space-around">
+            <marquee class="banner__title" behavior="" direction="">50% sales going on</marquee>
+            <div class="features flex-space-around">
+                <article class="feature flex-center">
+                    <i class="fa-solid fa-truck feature__icon">
+
+                    </i>
+                    <h3>Shipping within 7 days</h3>
+                </article>
+
+                <article class="feature flex-center">
+                    <i class="fa-brands fa-rocketchat feature__icon">
+
+                    </i>
+                    <h3>Support 24/7</h3>
+                </article>
+
+                <article class="feature flex-center">
+                    <i class="fa-regular fa-credit-card feature__icon">
+
+                    </i>
+                    <h3>Safe Payment</h3>
+                </article>
+
+                
+
+            </div>
+        </div>
+    </header>
+    <!-- header ends here -->
+
+    <!-- main code start here -->
+
+    <main class="flex-center">
+        <div class="sidebar">
+            <section class="categories-section">
+                <h3 class="section-title">Categories</h3>
+                <ul class="list">
+                    <li class="list-item">
+                        <label for="phone">
+                            <input type="checkbox" name="phone" id="phone" value="phone"/>
+                            Phone
+                        </label>
+
+                    </li>
+
+                    <li class="list-item">
+                        <label for="tablets">
+                            <input type="checkbox" name="phone" id="tablets" value="tablets"/>
+                            Tablets
+                        </label>
+                        
+                    </li>
+
+                    <li class="list-item">
+                        <label for="Televisions">
+                            <input type="checkbox" name="Televisions" id="phone" value="Televisions"/>
+                            Televisions
+                        </label>
+                        
+                    </li>
+
+                    <li class="list-item">
+                        <label for="Computer and accessories">
+                            <input type="checkbox" name="Computer and accessories" id="Computer and Smart Phone" value="Computer and accessories"/>
+                            Computer and accessories
+                        </label>
+                        
+                    </li>
+
+                    <li class="list-item">
+                        <label for="Smart Phone">
+                            <input type="checkbox" name="Smart Phone" id="Smart Phone" value="Smart Phone"/>
+                            Smart Phone
+                        </label>
+                        
+                    </li>
+
+
+                    <li class="list-item">
+                        <label for="Headphones">
+                            <input type="checkbox" name="Headphones" id="Headphones" value="Headphones"/>
+                            Headphones
+                        </label>
+                        
+                    </li>
+
+                </ul>
+            </section>
+
+
+            <section class="price-section">
+                <h3 class="section-title">Price Range</h3>
+                <ul class="list">
+                    <li class="list-item">
+                        <label for="price1">
+                            <input type="radio" name="price1" id="price1" value="[0,20]"/>
+                            $21-$50
+                        </label>
+
+                    </li>
+
+                    <li class="list-item">
+                        <label for="price2">
+                            <input type="radio" name="price1" id="price2" value="[0,20]"/>
+                            $51-$100
+                        </label>
+
+                    </li>
+
+                    <li class="list-item">
+                        <label for="price3">
+                            <input type="radio" name="price1" id="price3" value="[0,20]"/>
+                            $101-$300
+                        </label>
+
+                    </li>
+
+                    <li class="list-item">
+                        <label for="price4">
+                            <input type="radio" name="price1" id="price4" value="[0,20]"/>
+                            $300+
+                        </label>
+
+                    </li>
+                    
+
+                </ul>
+            </section>
+
+            <section class="shiping-section">
+                <h3 class="section-title">Shiping Option</h3>
+                <ul class="list">
+                    <li class="list-item">
+                        <label for="free-shiping">
+                            <input type="checkbox" name="free shipping" id="free shipping" value="free shipping"/>
+                            Free Shipping
+                        </label>
+                    </li>
+
+                    <li class="list-item">
+                        <label for="free-shiping">
+                            <input type="checkbox" name="paid shipping" id="paid shipping" value="paid shipping"/>
+                            Paid Shipping
+                        </label>
+                    </li>
+                </ul>
+            </section>
+        </div>
+        <div class="main-content">
+            <section class="actions flex-space-around">
+                <div class="actions__sort">
+                    <label for="sort">Sort By:</label>
+                    <select name="sort" id="sort">
+                        <option value="sold">Most sold </option>
+                        <option value="rating">Most rated</option>
+                        <option value="price">Cheapest </option>
+                        <option value="arrival">Newest</option>
+                        <option value="discount">Discount</option>
+                    </select>
+                </div>
+
+                <div class="actions__search">
+                    <input type="text" placeholder="Search product" />
+                    <button class="btn">
+                        <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
+                    </button>
+                </div>
+            </section>
+
+            <!-- product section starts here -->
+            <section class="products">
+                <article class="product card">
+                    <div class="badge">
+                        <span>7 in stock</span>
+                        <hr class="hr-design" />
+                        <span>3 sold</span>
+                    </div>
+                    <img class="product__img" src="./image/pro1.webp" alt="WH-1000XM4 Wireless Premium Noise Canceling Headphones | Black">
+                    <div class="product__body">
+                        <h3 class="product__name">WH-1000XM4 Wireless Premium Noise Canceling Headphones | Black</h3>
+                        <p>
+                            <span class="dot red"></span>
+                            <span class="dot yellow"></span>
+                            <span class="dot black"></span>
+                        </p>
+                        <p class="product__description">
+                            Industry-leading noise canceling1 with Dual Noise Sensor technology...
+                            <a href="/product.html" class="See-more">
+                                See More
+                            </a>
+                        </p>
+                        <h4 class="product__price">$350.99</h4>
+                        <p class="product__rating">Ratting 4.8/5</p>
+                        <button class="btn product__button">Add to Cart</button>
+                    </div>
+                </article>
+
+                <article class="product card">
+                    <div class="badge">
+                        <span>7 in stock</span>
+                        <hr class="hr-design" />
+                        <span>3 sold</span>
+                    </div>
+                    <img class="product__img" src="./image/pro2.webp" alt="box">
+                    <div class="product__body">
+                        <h3 class="product__name">Box</h3>
+                        <p>
+                            <span class="dot red"></span>
+                            <span class="dot yellow"></span>
+                            <span class="dot black"></span>
+                        </p>
+                        <p class="product__description">
+                            Industry-leading noise canceling1 with Dual Noise Sensor technology...
+                            <a href="/product.html" class="See-more">
+                                See More
+                            </a>
+                        </p>
+                        <h4 class="product__price">$199.99</h4>
+                        <p class="product__rating">Ratting 4.5/5</p>
+                        <button class="btn product__button">Add to Cart</button>
+                    </div>
+                </article>
+
+                <article class="product card">
+                    <div class="badge">
+                        <span>12 in stock</span>
+                        <hr class="hr-design" />
+                        <span>7 sold</span>
+                    </div>
+                    <img class="product__img" src="./image/pro3.webp" alt="Box 2">
+                    <div class="product__body">
+                        <h3 class="product__name">box2</h3>
+                        <p>
+                            <span class="dot red"></span>
+                            <span class="dot yellow"></span>
+                            <span class="dot black"></span>
+                        </p>
+                        <p class="product__description">
+                            New Technology in Sony...
+                            <a href="/product.html" class="See-more">
+                                See More
+                            </a>
+                        </p>
+                        <h4 class="product__price">$99.99</h4>
+                        <p class="product__rating">Ratting 4.1/5</p>
+                        <button class="btn product__button">Add to Cart</button>
+                    </div>
+                </article>
+
+                <article class="product card">
+                    <div class="badge">
+                        <span>2 in stock</span>
+                        <hr class="hr-design" />
+                        <span>5 sold</span>
+                    </div>
+                    <img class="product__img" src="./image/pro4.webp" alt="Xperia PRO 512GB, HDMI input, 360° antenna, 6.5” 4K 120Hz HDR OLED, 5G">
+                    <div class="product__body">
+                        <h3 class="product__name">Xperia PRO 512GB, HDMI input, 360° antenna, 6.5” 4K 120Hz HDR OLED, 5G</h3>
+                        <p>
+                            <span class="dot red"></span>
+                            <span class="dot yellow"></span>
+                            <span class="dot black"></span>
+                        </p>
+                        <p class="product__description">
+                                HDMI connectivity
+                                5G mmWave and 5G Sub-6 technology provides unrivalled transfer speeds and low latency
+                                360° antenna design and low dielectric constant material optimizes signal strength... 
+                                <a href="/product.html" class="See-more">
+                                See More
+                                </a>
+                        </p>
+                        <h4 class="product__price">$2599.99</h4>
+                        <p class="product__rating">Ratting 4.7/5</p>
+                        <button class="btn product__button">Add to Cart</button>
+                    </div>
+                </article>
+
+                <article class="product card">
+                    <div class="badge">
+                        <span>20 in stock</span>
+                        <hr class="hr-design" />
+                        <span>13 sold</span>
+                    </div>
+                    <img class="product__img" src="./image/pro5.webp" alt="Honor Pad X9 4GB RAM 128GB Storage 11.5-inch Tablet">
+                    <div class="product__body">
+                        <h3 class="product__name">Honor Pad X9 4GB RAM 128GB Storage 11.5-inch Tablet</h3>
+                        <p>
+                            <span class="dot red"></span>
+                            <span class="dot yellow"></span>
+                            <span class="dot black"></span>
+                        </p>
+                        <p class="product__description">
+                            Model: Pad X9
+                            Display: 11.5-inch TFT LCD, 1200 x 2000 pixels, 120Hz
+                            RAM: 4GB Storage: 128GB ROM
+                            CPU: Octa-core Snapdragon 685(6 nm)
+                            Battery: Li-Po 7250 mAh, non-removable
+                            <a href="/product.html" class="See-more">
+                                See More
+                            </a>
+                        </p>
+                        <h4 class="product__price">$39.99</h4>
+                        <p class="product__rating">Ratting 4.2/5</p>
+                        <button class="btn product__button">Add to Cart</button>
+                    </div>
+                </article>
+
+                <article class="product card">
+                    <div class="badge">
+                        <span>2 in stock</span>
+                        <hr class="hr-design" />
+                        <span>15 sold</span>
+                    </div>
+                    <img class="product__img" src="./image/pro6.jpg" alt="HP 255 15.6 inch G9 Notebook PC">
+                    <div class="product__body">
+                        <h3 class="product__name">HP 255 15.6 inch G9 Notebook PC</h3>
+                        <p>
+                            <span class="dot red"></span>
+                            <span class="dot yellow"></span>
+                            <span class="dot black"></span>
+                        </p>
+                        <p class="product__description">
+                            The HP 255 G9 Laptop provides essential business-ready features in a thin and light design that’s easy to take everywhere you go. The 15.6-inch diagonal display with big screen-to-body ratio[5], robust AMD Ryzen™ processor[2], fast memory, and storage is powered for productivity, while the included ports connect your peripherals—all at a price you can value.
+                            <a href="/product.html" class="See-more">
+                                See More
+                            </a>
+                        </p>
+                        <h4 class="product__price">$449.99</h4>
+                        <p class="product__rating">Ratting 4.7/5</p>
+                        <button class="btn product__button">Add to Cart</button>
+                    </div>
+                </article>
+
+                <article class="product card">
+                    <div class="badge">
+                        <span>9 in stock</span>
+                        <hr class="hr-design" />
+                        <span>4 sold</span>
+                    </div>
+                    <img class="product__img" src="./image/pro7.webp" alt="Sony Bravia KD-32W830K 32 Inch HD Smart Google Television ">
+                    <div class="product__body">
+                        <h3 class="product__name">Sony Bravia KD-32W830K 32 Inch HD Smart Google Television </h3>
+                        <p>
+                            <span class="dot red"></span>
+                            <span class="dot yellow"></span>
+                            <span class="dot black"></span>
+                        </p>
+                        <p class="product__description">
+                            Model: Bravia KD-32W830K
+                            Resolution: 720p HD (1366 x 768)
+                            X-Reality PRO Content Upscaling
+                            Ports: 3 x HDMI, 2 x USB
+                            Chromecast Built-In
+                            <a href="/product.html" class="See-more">
+                                See More
+                            </a>
+                        </p>
+                        <h4 class="product__price">$340.99</h4>
+                        <p class="product__rating">Ratting 4.1/5</p>
+                        <button class="btn product__button">Add to Cart</button>
+                    </div>
+                </article>
+
+                <article class="product card">
+                    <div class="badge">
+                        <span>9 in stock</span>
+                        <hr class="hr-design" />
+                        <span>4 sold</span>
+                    </div>
+                    <img class="product__img" src="./image/pro8.jpg" alt="LG - 1.8 Cu. Ft. Over-the-Range Smart Microwave with Sensor Cooking and EasyClean - Stainless Steel ">
+                    <div class="product__body">
+                        <h3 class="product__name">LG - 1.8 Cu. Ft. Over-the-Range Smart Microwave with Sensor Cooking and EasyClean - Stainless Steel </h3>
+                        <p>
+                            <span class="dot red"></span>
+                            <span class="dot yellow"></span>
+                            <span class="dot black"></span>
+                        </p>
+                        <p class="product__description">
+                            Model: MVEM1825F
+                            SKU: 650
+                            Color : Stainless Steel
+                            <a href="/product.html" class="See-more">
+                                See More
+                            </a>
+                        </p>
+                        <h4 class="product__price">$249.99</h4>
+                        <p class="product__rating">Ratting 4.3/5</p>
+                        <button class="btn product__button">Add to Cart</button>
+                    </div>
+                </article>
+
+                <article class="product card">
+                    <div class="badge">
+                        <span>14 in stock</span>
+                        <hr class="hr-design" />
+                        <span>10 sold</span>
+                    </div>
+                    <img class="product__img" src="./image/pro9.jpg" alt="APC UPS 1500VA UPS Battery Backup and Surge Protector, BX1500M Backup Battery Power Supply, AVR, Dataline Protection">
+                    <div class="product__body">
+                        <h3 class="product__name">APC UPS 1500VA UPS Battery Backup and Surge Protector, BX1500M Backup Battery Power Supply, AVR, Dataline Protection</h3>
+                        <p>
+                            <span class="dot red"></span>
+                            <span class="dot yellow"></span>
+                            <span class="dot black"></span>
+                        </p>
+                        <p class="product__description">
+                           
+                                Brand	APC
+                                Battery Cell Composition	Sealed Lead Acid
+                                Product Dimensions	15.04"D x 3.94"W x 9.84"H
+                                Voltage	120 Volts
+                                Color	Black
+                            <a href="/product.html" class="See-more">
+                                See More
+                            </a>
+                        </p>
+                        <h4 class="product__price">$49.99</h4>
+                        <p class="product__rating">Ratting 4.2/5</p>
+                        <button class="btn product__button">Add to Cart</button>
+                    </div>
+                </article>
+
+                
+            </section>
+            <!-- product section ends here -->
+
+            <div class="pagination">
+                <button class="btn pagination__btn">
+                    <i class="fas fa-less-than"></i>
+                </button>
+                <button class="btn pagination__btn">2</button>
+                <button class="btn pagination__btn">3</button>
+                <button class="btn pagination__btn">4</button>
+                <button class="btn pagination__btn">5</button>
+                <button class="btn pagination__btn">6</button>
+                <button class="btn pagination__btn">7</button>
+                <button class="btn pagination__btn">8</button>
+                <button class="btn pagination__btn">9</button>
+                <button class="btn pagination__btn">10</button>
+                <button class="btn pagination__btn">...</button>
+                <button class="btn pagination__btn">50</button>
+
+                <button class="btn pagination__btn">
+                    <i class="fas fa-greater-than"></i>
+                </button> 
+                           
+            </div>
+        </div>
+
+       
+    </main>
+
+    <!-- main code ends here -->
+
+
+    <!-- footer start here -->
+    <footer class="footer flex-space-around">
+        <div class="flex-space-around">
+            <label for="subscribe">subscribe to Newsletter:</label>
+            <input type="email" name="subscribe" id="subscribe" class="footer_input"
+            placeholder="Your Email Address">
+            <button class="btn btn-subscribe">Subscribe</button>
+        </div>
+
+        <div>
+            <p>&copy; copyright 2024 Pilow. All right rserved</p>
+        </div>
+    </footer>
+    <!-- footer ends here -->
+    <script src="./scripts/index.js"></script>
+</body>
+</html>
